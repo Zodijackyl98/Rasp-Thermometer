@@ -8,9 +8,6 @@ from Adafruit_LCD1602 import Adafruit_CharLCD
 from datetime import datetime
 import time
 
-import matplotlib.pyplot as plt
-import matplotlib.animation as animation
-
 GPIO.setmode(GPIO.BOARD)
 
 channel_list = [37,40,38,7] #RGBY 
